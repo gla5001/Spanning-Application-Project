@@ -1,0 +1,293 @@
+.body-background {
+	background-color: #9F80AC;
+	font-family: 'Press Start 2P','Helvetica Neue', Arial;
+	color:#ffffff;
+	font-size:10px;
+	text-align: center;
+}
+
+.body-container{
+	position:relative;
+	margin: 90px auto 0;
+	display:inline-block;
+	overflow:hidden;
+}
+
+.atm-sign-container{
+	position:relative;
+	display:inline-block;
+	border-radius:15px;
+	background-color: #126CAE;
+	padding: 15px 65px;
+	float: left;
+}
+
+.body-container .atm-sign-container .atm-sign{
+	position:relative;
+	background: url("images/atm_sign.png") no-repeat right top;	
+	width:298px;
+	height:122px;
+}
+
+.body-container .atm-sign-container .graffiti{
+	position: absolute;
+	top: 15%;
+	right: -13%;
+	background: url("images/graffiti.png") no-repeat right top;	
+	width:207px;
+	height:63px;
+}
+
+.body-container .machine-container{
+	position:relative;
+	margin: 0 25px;
+	background-color: #F1F0E7;	
+	border-top:8px #BEBEBE solid;
+	display: inline-block;
+	float: left;
+	clear:both;
+}
+
+.body-container .machine-container .credit-cards{
+	position:relative;
+	background: url("images/creditcard_sprite.png") no-repeat 0px -24px;	
+	width:248px;
+	height:24px;	
+	margin: 8px 59px 3px 71px;
+}
+
+.body-container .screen-button-container{
+	position: relative;
+	width:100%;	
+	float:left;
+}
+
+.body-container .screen-button-container .screen{
+	position:relative;
+	width:238px;
+	height:228px;
+	background-color: #7EB4D5;
+	border:5px solid #E1E1D6;
+	float:left;
+	margin: 0 66px;
+}
+
+.body-container .screen-button-container ul.buttons{
+	position:absolute;
+	padding:0px;
+	margin:0px;
+	width:66px;
+	list-style: none;
+	bottom: 11px;
+}
+
+.body-container .screen-button-container ul.text-for-buttons{
+	position:absolute;
+	padding:0px;
+	margin:0px;
+	width:130px;
+	list-style: none;
+	bottom: 6px;
+}
+
+.body-container .screen-button-container ul.left-buttons{
+	left:0;
+}
+
+.body-container .screen-button-container ul.right-buttons{
+	right:0;
+}
+
+.body-container .screen-button-container ul.buttons li{
+	width:100%;
+	padding:5px 0;
+	position: relative;
+}
+
+.body-container .screen-button-container ul.text-for-buttons li{
+	width:100%;
+    padding:5px 0;
+	position: relative;
+	height: 24px;
+}
+
+.body-container .screen-button-container ul.buttons li a{
+	display:inline-block;
+	width:60%;
+	height:20px;
+	background-color: #C1C1C1;
+	border-radius: 4px;
+	border-bottom: 2px solid #9B9B9B;
+	border-top:2px solid #D9D9D4;
+}
+
+.body-container .screen-button-container ul.text-for-buttons li .screen-text{
+	display:inline-block;
+	font-size:9px;
+	line-height: 2.7;
+	height: 24px;
+}
+
+#text-r1 .screen-text, #text-r2 .screen-text, #text-r3 .screen-text, #text-r4 .screen-text{
+	text-align: right;
+}
+
+#text-l1 .screen-text, #text-l2 .screen-text, #text-l3 .screen-text, #text-l4 .screen-text{
+	text-align: left;
+}
+
+.body-container .screen-button-container ul.buttons li .line-left{
+	display: inline-block;
+	width: 14px;
+	height: 3px;
+	background-color: #9B9B9B;
+	position: absolute;
+	top: 17px;
+}
+
+.body-container .screen-button-container ul.buttons li .line-right{
+	display: inline-block;
+	width: 13px;
+	height: 3px;
+	background-color: #9B9B9B;
+	position: absolute;
+	top: 17px;
+	left: 0;
+}
+
+.body-container .screen-button-container ul.text-for-buttons li .line-left{
+	display: inline-block;
+	width: 13px;
+	height: 3px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 17px;
+	left: 0;
+}
+
+.body-container .screen-button-container ul.text-for-buttons li .line-right{
+	display: inline-block;
+	width: 13px;
+	height: 3px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 17px;
+	right: 0;
+} 
+
+.body-container .spanning-logo{
+	position: relative;	
+	float:right;
+	clear:both;
+	background: url("images/spanning_systems.png") no-repeat right top;	
+	width:110px;
+	height:6px;
+	margin: 5px 66px 5px 0;
+}
+
+.body-container .sticker{
+	position: relative;
+	background: url("images/sticker_graf.png") no-repeat right top;	
+	width:158px;
+	height:112px;
+	top: 220px;
+	left: 20px;	
+}
+
+.welcome-note{
+	position:absolute;
+	top:15px;
+	display:none;
+}
+
+.screen-content{
+	position:absolute;
+	top:45px;
+	line-height: 14px;
+	margin: 0 4px;
+}
+
+.screen-content .input-box{
+	margin: 5px 0;	
+}
+
+.body-container .machine-container .credit-cards .star{
+	position: absolute;
+	background: url("images/creditcard_sprite.png") no-repeat 0px 0px;
+	width: 36px;
+	height: 24px;
+	top: -1px;
+	left: 0px;
+}
+
+.body-container .machine-container .credit-cards .pulse{
+	position: absolute;
+	background: url("images/creditcard_sprite.png") no-repeat -39px 0px;
+	width: 42px;
+	height: 24px;
+	top: -1px;
+	left: 39px;
+}
+
+.body-container .machine-container .credit-cards .maestro{
+	position: absolute;
+	background: url("images/creditcard_sprite.png") no-repeat -86px 0px;
+	width: 42px;
+	height: 24px;
+	top: -1px;
+	left: 86px;
+}
+
+.body-container .machine-container .credit-cards .mastercard{
+	position: absolute;
+	background: url("images/creditcard_sprite.png") no-repeat -125px 0px;
+	width: 42px;
+	height: 24px;
+	top: -1px;
+	left: 125px;	
+}
+
+.body-container .machine-container .credit-cards .plus{
+	position: absolute;
+	background: url("images/creditcard_sprite.png") no-repeat -162px 0px;
+	width: 42px;
+	height: 24px;
+	top: -1px;
+	left: 162px;	
+}
+
+.body-container .machine-container .credit-cards .visa{
+	position: absolute;
+	background: url("images/creditcard_sprite.png") no-repeat -200px 0px;
+	width: 42px;
+	height: 24px;
+	top: -1px;
+	left: 200px;	
+}
+
+.body-container .machine-container .balance-note{
+	font-size:9px;	
+}
+
+.body-container .machine-container .dollar-note{
+	font-size:7px;		
+}
+
+.body-container .dollar{
+	display:none;
+	position: absolute;
+	background: url("images/dollar150x63.png") no-repeat right top;
+	width: 150px;
+	height: 63px;
+	z-index: 2;	
+}
+
+/* temp fix for firefox. text items and lines on the screen are off by 1px. firefox only. */
+@-moz-document url-prefix() {
+    .body-container .screen-button-container ul.text-for-buttons li{
+		width:100%;
+    	padding:5px 0 6px 0 !important;
+		position: relative;
+		height: 24px;
+	}
+}

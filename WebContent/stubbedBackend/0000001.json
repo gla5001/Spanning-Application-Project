@@ -1,0 +1,7 @@
+{
+	"account" : { "accountNumber":"0000001", 
+				  "pinsToName":{"1111" : "Peter Parker"},
+				  "balance":"10000",
+				  "cardType":"star"
+			    }
+}

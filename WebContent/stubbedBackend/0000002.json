@@ -1,0 +1,7 @@
+{
+	"account" : { "accountNumber":"0000002", 
+				  "pinsToName":{"2222" : "Bob Belcher"},
+				  "balance":"3000",
+				  "cardType":"visa"
+			    }
+}

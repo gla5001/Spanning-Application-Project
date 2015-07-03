@@ -1,0 +1,7 @@
+{
+	"account" : { "accountNumber":"0000004", 
+				  "pinsToName":{"1212" : "Krusty"},
+				  "balance":"300",
+				  "cardType":"mastercard"
+			    }
+}

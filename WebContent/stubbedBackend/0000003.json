@@ -1,0 +1,7 @@
+{
+	"account" : { "accountNumber":"0000003", 
+				  "pinsToName":{"3333" : "Homer Simpson", "4444" : "Marge Simpson"},
+				  "balance":"3000",
+				  "cardType":"plus"
+			    }
+}
